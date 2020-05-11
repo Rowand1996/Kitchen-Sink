@@ -1,11 +1,11 @@
 
-var name = "Rowan";
+const name = "Rowan";
 // makes a window on the screen with the word Rowan in it 
 
 // numOfStates is number of states in the U.S.
 const numOfStates = 50;
 //im adding 5 and 4 and saving it to a variable 
-var number = 5 + 4;
+let number = 5 + 4;
 
 
 
@@ -44,7 +44,7 @@ pet = {
 
 console.log(pet.name,pet.breed);
 // this is an array with multiple objects in it 
-var people = [
+const people = [
     {
         name: "bob",
         age: 19
@@ -74,7 +74,7 @@ for(i=0;i < people.length;i++) {
 
 //this is a function that gets the length of whatever string is inserted in the params then checks if its even or odd
 function getLength(name) {
-    var wordLength = name.length;
+    const wordLength = name.length;
     if(wordLength % 2) {
         console.log("the world is nice and even");
     } else {
