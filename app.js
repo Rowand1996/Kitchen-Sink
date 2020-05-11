@@ -33,7 +33,7 @@ checkAge("Jhon",17);
 favVegtables = ["corn","potatoes","broccoli","green beans","carrots"];
 
 //i am console.loging all of the vegtables in an array
-for(i=0;i < favVegtables.length;i++) {
+for(let i=0;i < favVegtables.length;i++) {
     console.log(favVegtables[i]);
 }
 
@@ -68,7 +68,7 @@ const people = [
 ];
 
 // this is a loop that uses check age on the array of objects i made 
-for(i=0;i < people.length;i++) {
+for(let i=0;i < people.length;i++) {
    checkAge(people[i].name,people[i].age);
 }
 
